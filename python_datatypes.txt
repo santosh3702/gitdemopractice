@@ -1,3 +1,4 @@
+Data types:
 none
    nuone is like null
 numeric
@@ -11,3 +12,36 @@ set
 string
 range
 dictionery
+
+Operators:
+
+Arithmetic operator
+          + , - , * ,/
+assignment operator
+          x=2
+          x
+          2
+          x+=2 
+          4
+          x*=2
+          8
+          x-=2
+          6
+          x/=2
+          3
+          a,b = 5,6 (we can assign the values in oneline for two variable)
+Relational operator
+         Note : for equal check we need to use double == , because if single = then it represents assigning variables
+         > , < , <= , >= , ==, !=
+         returns true or false 
+logical operator
+         combing of two or more conditions we will use logical operators 
+         &(And) , |(or) , not 
+unary operatory
+         n = 7
+         n
+         7
+         n = -n
+         n
+         -7
+         
