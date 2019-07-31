@@ -36,7 +36,7 @@ Relational operator
          returns true or false 
 logical operator
          combing of two or more conditions we will use logical operators 
-         &(And) , |(or) , not 
+         (And) , (or) , not 
 unary operatory
          n = 7
          n
@@ -44,4 +44,36 @@ unary operatory
          n = -n
          n
          -7
+ Bitwise operator
+       ~(tilde),&,|,^,<<,>>
+~(tilde)
+  >>> ~43
+-44
+>>> ~0
+-1
+>>> ~1
+-2
+>>> ~-1
+0
+
+
+Decorators
+
+we can change the behaviour of the the function at the time of compile time it self
+
+so in below div is a fixed method we can not change the functionality but we we want to change the functionality then by  
+
+def div(a,b):
+    print(a/b)
+    
+def smart_div(func):
+    def inner(a,b):
+       if a<b:
+          a,b = b,a
+      return func(a,b)
+return inner
+
+div = smart_div(div)
+
+div(2,4)
          
