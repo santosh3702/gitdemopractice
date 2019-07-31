@@ -1,0 +1,13 @@
+none
+   nuone is like null
+numeric
+   int
+   float
+   complex
+   bool
+list
+tuple
+set 
+string
+range
+dictionery
