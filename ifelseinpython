@@ -1,2 +1,4 @@
-if True:
-    print("this is true")
+if True: //() if is basically a suite or block in python
+    print("this is true") here print will start from "r" why because of pthon indentation, next continuos statements should follow same spaces
+    print("this is correct")
+   print(this is wrong)
